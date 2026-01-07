@@ -16,10 +16,10 @@
   font-weight: 600;
   cursor: pointer;
 }
-li{
+li {
   list-style: none;
 }
-a{
+a {
   text-decoration: none;
 }
 /* shared code */
@@ -45,10 +45,10 @@ a{
   margin-bottom: 32px;
 }
 /* previous */
-#previous{
+#previous {
   margin-top: 130px;
 }
-#previous .previous-conntainer{
+#previous .previous-conntainer {
   width: 67%;
   max-width: 1172px;
   margin: 0 auto;
@@ -56,42 +56,61 @@ a{
   justify-content: space-between;
   align-items: center;
 }
-#previous .previous-conntainer .my-image{
+#previous .previous-conntainer .my-image {
   max-width: 570px;
   margin-right: 87px;
-} 
-.previous-conntainer .my-failures-list h3{
+}
+.previous-conntainer .my-failures-list h3 {
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 24px;
 }
-.previous-conntainer .my-failures-list p{
+.previous-conntainer .my-failures-list p {
   font-size: 16px;
   line-height: 26px;
   color: #444343;
   margin-bottom: 15px;
 }
-.previous-conntainer ul li{
+.previous-conntainer ul li {
   font-size: 16px;
   line-height: 26px;
 }
 /* plans */
-#plans-container{
+#plans-container {
   margin-top: 130px;
-  text-align: center;
 }
-.plans-container{
+.plans-container {
   width: 67%;
   max-width: 1140px;
   margin: 0 auto;
 }
-.plans-container h2{
+.plans-container h2 {
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 50px;
 }
-.plans-container .plans-card{
+.plans-container .plans-card {
   display: flex;
+  text-align: center;
   justify-content: space-between;
   margin-bottom: 130px;
+}
+.plans-card .card h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.plans-card .card p {
+  font-size: 25px;
+  color: #737272;
+}
+.add {
+  padding: 59px 617px 147px 64px;
+  background-image: url(./images/gradient1.png), url(./images/watch.png);
+  background-repeat: no-repeat, no-repeat;
+}
+
+.add h3 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
 }
