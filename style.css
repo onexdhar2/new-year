@@ -88,6 +88,7 @@ a {
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 50px;
+  text-align: center;
 }
 .plans-container .plans-card {
   display: flex;
@@ -113,4 +114,44 @@ a {
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 24px;
+}
+/* footer */
+#footer{
+  background-color: black;
+  color: white;
+  padding: 130px 0;
+}
+.footer-container{
+  width: 67%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-container .social{
+  max-width: 485px;
+}
+ .social h3{
+  font-size: 45px;
+  font-weight: bold;
+  color: #F8F8F8;
+  margin-bottom: 16px;
+ }
+.social p{
+  font-size: 16px;
+  margin-bottom: 34px;
+}
+.icon img{
+  padding-right: 15px;
+}
+.email h4{
+  font-size: 25px;
+  font-weight: 700px;
+}
+.email input{
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 21px 158px 21px 21px;
+  font-size: 18px;
 }
